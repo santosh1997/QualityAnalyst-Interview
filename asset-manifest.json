@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/QualityAnalyst-Interview/static/css/main.68ff0f4e.chunk.css",
+    "main.js": "/QualityAnalyst-Interview/static/js/main.96555b05.chunk.js",
+    "main.js.map": "/QualityAnalyst-Interview/static/js/main.96555b05.chunk.js.map",
+    "runtime-main.js": "/QualityAnalyst-Interview/static/js/runtime-main.1647bde4.js",
+    "runtime-main.js.map": "/QualityAnalyst-Interview/static/js/runtime-main.1647bde4.js.map",
+    "static/js/2.522e80c9.chunk.js": "/QualityAnalyst-Interview/static/js/2.522e80c9.chunk.js",
+    "static/js/2.522e80c9.chunk.js.map": "/QualityAnalyst-Interview/static/js/2.522e80c9.chunk.js.map",
+    "static/js/3.cc6ee386.chunk.js": "/QualityAnalyst-Interview/static/js/3.cc6ee386.chunk.js",
+    "static/js/3.cc6ee386.chunk.js.map": "/QualityAnalyst-Interview/static/js/3.cc6ee386.chunk.js.map",
+    "index.html": "/QualityAnalyst-Interview/index.html",
+    "static/css/main.68ff0f4e.chunk.css.map": "/QualityAnalyst-Interview/static/css/main.68ff0f4e.chunk.css.map",
+    "static/js/2.522e80c9.chunk.js.LICENSE.txt": "/QualityAnalyst-Interview/static/js/2.522e80c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1647bde4.js",
+    "static/js/2.522e80c9.chunk.js",
+    "static/css/main.68ff0f4e.chunk.css",
+    "static/js/main.96555b05.chunk.js"
+  ]
+}
