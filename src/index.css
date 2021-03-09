@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button{
+    border:0px;
+    background: none;
+    padding: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+th{
+  padding: 5px;
+  font-weight: 400;
+}
+td{
+  padding: 5px;
+}
+header{
+	height: 40px;
+}
+
+footer{
+  background: black;
+  color:white;
+}
+
+textarea{
+    font-family: "Segoe UI";
+}
+
+ul{
+  transition: all .5s ease;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+input{
+    padding: 4px 3px;
+    font-size: 15px;
+}
+
+input::placeholder{
+  color:darkgrey;
+}
+select{
+    border-radius: 4px;
+    padding: 1px;
+    outline: none;
+    font-family: Segoe UI;
+}
+
+#main-comp{
+   width: calc(100% - 125px);
+}
+
+.icon{
+    height: 17px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.hor-ver-margin{
+    margin: 8px;
+}
+
+.hor-padding{
+    padding: 0px 10px;
+}
+.hor-ver-padding{
+    padding:8px;
+}
+.ver-padding{
+    padding: 10px 0px;
+}
+.x-large{
+    font-size: 24px;
+}
+.large{
+    font-size: 20px;
+}
+.medium{
+    font-size: 17px;
+}
+
+.label-margin{
+    margin: 0px 10px 0px 0px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.margin-right{
+    margin-right: 10px;
+}
+
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+.margin-left{
+    margin-left: 10px;
+}
+.margin-auto{
+    margin: auto
+}
+.no-outline{
+    outline: none;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 28px;
+    font-weight: 540;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    align-items: center;
+    display: flex;
+}
+
+.inline-flex-center{
+  align-items: center;
+  display: inline-flex;
+}
+
+.col-5{
+    width: 5%;
+ }
+.col-20{
+    width: 20%;
+}
+.col-30{
+    width: 30%;
+}
+.col-80{
+    width: 80%;
+}
+
+.col-90{
+    width: 90%;
+}
+
+.col-92{
+    width: 92%;
+}
+
+.col-95{
+    width: 95%;
+}
+
+.col-98{
+    width: 98%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.show{
+    display: block;
+}
+
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.inline{
+	display: inline-block;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.vertical-middle{
+  vertical-align: middle;
+}
+
+
+#priority{
+	width: 10%;
+}
+
+#status{
+	width: 14%;
+}
+.m-expand{
+  display: none;
+}
+.expand-img .close{
+  display: block;
+  top: -7px;
+  position: absolute;
+  right: -7px;
+  height: 10px;
+}
+.none{
+  opacity: 0;
+}
+
+.tab-active{
+  border-bottom: 3px solid #20adff;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .home-inline-flex{
+    display: block;
+  }
+
+  .home-img{
+    width: 269px;
+  }
+
+  .price-separator{
+     border-right: 0px;
+    border-bottom : 1px solid #949494; 
+  }
+   #main-comp{
+      width: 100%;
+   }
+   .feature-vid{
+      width: 340px;
+   }
+   .small{
+      font-size: 12px;
+   }
+   .medium{
+      font-size: 14px;
+   }
+    .large {
+        font-size: 16px;
+    }
+   .x-large {
+      font-size: 19px;
+    }
+    .heading{
+      font-size: 21px;
+    }
+    .img-small{
+      width: 28px;
+      height: 28px;
+    }
+
+  .nav-bar img{
+    height: 20px;
+    margin: 5px;
+  }
+  .margin-right{
+    margin-right: 4px;
+  }
+  .margin-left{
+    margin-left: 4px;
+  }
+   .col-5{
+      width: 5%;
+   }
+   .col-30 {
+      width: 85%;
+   }
+   .col-40 {
+      width: 45%;
+   }
+
+   .col-44{
+      width: 44%;
+   }
+
+   .col-45{
+      width: 90%;
+   }
+   
+   .mcol-45{
+      width: 95%;
+   }
+   .col-50{
+      width: 100%;
+   }
+   .col-80{
+    width: 80%;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  #main-comp{
+      width: calc(100% - 105px);
+   }
+   .feature-vid{
+      width: 400px;
+   }
+  .col-8{
+      width: 11%;
+   }
+}

@@ -1,0 +1,1 @@
+This repo is used for technical round of manual testing Quality Analyst
